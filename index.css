@@ -17,7 +17,7 @@ main {
   width: 80%;
   height: fit-content;
   max-height: 1000px;
-  background-color: #333333;
+  background-color: black;
 }
 header {
   background-image: url(design/beer-new_401732638.jpg);
@@ -33,69 +33,23 @@ header p {
   letter-spacing: 4px;
 }
 
-footer {
-  background-color: red;
-}
-nav {
-  width: 300px;
-  padding: 5px;
-}
-
-nav li {
-  padding: 5px;
-  list-style-type: none;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-bottom: 3px;
-}
-nav li a {
-  text-decoration: none;
-  color: red;
-  font-weight: bold;
-}
-nav li:hover {
-  background-color: #adb5bd;
-  color: white;
-}
-nav li a:hover {
-  color: white;
-}
-article {
-  display: grid;
-  grid-template-columns: auto 300px;
-  text-align: justify;
-  font-size: 10px;
-}
-article img {
-  width: 200px;
-  /* border: ; */
-}
-aside{
-  background-color: black;
-}
 aside h1 {
   font-size: 15px;
   padding: 25px 0 15px 10px;
 }
-.grid {
-  display: grid;
-  grid-template-columns: auto 1fr;
-}
-.grid img {
-  float: left;
-  max-width: 100%;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
-  padding: 10px;
+table {
+  width: 700px;
+  border-collapse: collapse;
+  margin-inline: 0;
   margin: 10px;
 }
-.grid ul {
-  padding: 0 1rem 0 1rem;
+tr:nth-child(even) {
+  background-color: darkslategray;
 }
-.grid li {
-  list-style-type: square;
-  text-align: justify;
-  font-size: 10px;
+tr,td,th {
+  text-align: center;
+  border: 0.1px solid lightgray;
+  padding: 2px;
 }
 footer {
   color: white;
@@ -112,15 +66,7 @@ footer {
   article {
     grid-template-columns: 1fr;
   }
-  .grid{
-    grid-template-columns: 1fr;
-  }
-  .grid img {
-    max-width: 100%;
-  }
-  .text img {
-    float: none;
-  }
+
   nav {
     width: 100%;
   }
