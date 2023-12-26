@@ -33,9 +33,6 @@ header p {
   letter-spacing: 4px;
 }
 
-footer {
-  background-color: red;
-}
 nav {
   width: 300px;
   padding: 5px;
@@ -118,9 +115,7 @@ footer {
   .grid img {
     max-width: 100%;
   }
-  .text img {
-    float: none;
-  }
+
   nav {
     width: 100%;
   }
